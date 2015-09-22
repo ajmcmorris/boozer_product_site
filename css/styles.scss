@@ -1,0 +1,68 @@
+$green:#41c17d;
+$white:#fff;
+$grey:#f3f3f3;
+$light-blk:#525151;
+
+header{
+	height:500px;
+	background-image: url("../img/127H.jpg");
+	background-size:cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+}
+
+a{
+	text-decoration: none;
+}
+.grn-bkg{
+	background-color: $green;
+	border:none;
+}
+.gry-bkg{
+	background-color: $grey;
+}
+.icon-spacing{
+	margin: 10px 0;
+}
+i{
+	color: $white;
+}
+.call-to-action{
+	padding: 10px 0;
+}
+.section-padding{
+	padding: 15px 0;
+}
+.left-mrg-5{
+	margin-left: 5px;
+}
+.main-btn{
+	padding: 10px 15px;
+	border:2px solid $light-blk;
+	color: $light-blk;
+}
+.main-btn:hover{
+	border-color: $green;
+	color:$green;
+	transition: ease 0.7s;
+	text-decoration: none;
+}
+.copyright{
+	margin-top:100px;
+}
+footer{
+	min-height: 300px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
